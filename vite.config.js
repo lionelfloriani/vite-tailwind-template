@@ -9,7 +9,6 @@ export default defineConfig({
     },
     plugins: [
         eslint({
-            overrideConfigFile: './config/eslint.config.mjs',
             cache: false,
             fix: true,
         }),

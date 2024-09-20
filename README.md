@@ -72,7 +72,7 @@ You can then use these variables as classes. For example, simply use `.dark-colo
 A type scale and spacing scale have been defined:
 
 -   **To modify the type scale**, edit the relevant sections in `./src/styles/custom.css`.
--   **To modify the spacing scale**, adjust the settings in `./config/tailwind.config.js`.
+-   **To modify the spacing scale**, adjust the settings in `./tailwind.config.js`.
 
 ### Further Configuration Required
 

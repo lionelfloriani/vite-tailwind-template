@@ -4,9 +4,9 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-        "dev": "vite --config config/vite.config.js",
-        "build": "npx eslint src/ && vite build --config config/vite.config.js",
-        "preview": "vite preview --config config/vite.config.js",
+        "dev": "vite",
+        "build": "npx eslint src/ && vite build",
+        "preview": "vite preview",
         "deploy": "git subtree push --prefix dist origin gh-pages"
     },
     "devDependencies": {
