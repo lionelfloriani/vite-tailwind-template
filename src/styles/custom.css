@@ -11,3 +11,66 @@
         @apply font-semibold;
     }
 } */
+
+:root {
+    --ff: 'Inter', sans-serif;
+    --h1: bold 4rem/1em var(--ff);
+    --h2: bold 3rem/1.2em var(--ff);
+    --h3: bold 2.25rem/1.2em var(--ff);
+    --h4: bold 1.5rem/1.6em var(--ff);
+    --big: 1.25rem/1.6em var(--ff);
+    --p: 1rem/1.6em var(--ff);
+    --small: 0.75rem/2em var(--ff);
+    --dark-color: ;
+    --light-color: ;
+    --primary-color: ;
+    --secondary-color: ;
+}
+
+@layer utilities {
+    .h1 {
+        font: var(--h1);
+    }
+    .h2 {
+        font: var(--h2);
+    }
+    .h3 {
+        font: var(--h3);
+    }
+    .h4 {
+        font: var(--h4);
+    }
+    .big {
+        font: var(--big);
+    }
+    .p {
+        font: var(--p);
+    }
+    .small {
+        font: var(--small);
+    }
+    .dark-color {
+        color: var(--dark-color);
+    }
+    .light-color {
+        color: var(--light-color);
+    }
+    .primary-color {
+        color: var(--primary-color);
+    }
+    .secondary-color {
+        color: var(--secondary-color);
+    }
+    .primary-button {
+        color: var(--primary-color);
+    }
+    .secondary-button {
+        color: var(--secondary-color);
+    }
+    .primary-link {
+        color: var(--primary-color);
+    }
+    .secondary-link {
+        color: var(--secondary-color);
+    }
+}
