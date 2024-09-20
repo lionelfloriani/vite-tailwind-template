@@ -76,24 +76,33 @@ To load an image dynamically in JavaScript using Vite, follow these steps:
 
 ## Tailwind Customization
 
-To customize Tailwind CSS:
+This template utilizes a combination of CSS variables and Tailwind custom classes to ensure a cohesive and consistent design.
 
-1. **Extend the Default Theme**  
-   Modify `tailwind.config.js` to add custom values:
+#### CSS Variables
 
-    ```javascript
-    module.exports = {
-        theme: {
-            extend: {
-                colors: {
-                    primary: {
-                        500: 'value',
-                    },
-                },
-            },
-        },
-    };
-    ```
+In `./src/styles/custom.css`, define the following CSS variables:
 
-2. **Create Custom Utility Classes**
-   Check out the `./src/styles/custom.css` for instructions.
+-   `--dark-color`
+-   `--light-color`
+-   `--primary-color`
+-   `--secondary-color`
+
+You can then use these variables as classes. For example, simply use `.dark-color` as a class. The variables are also linked for use with `bg-dark-color`, `bg-light-color`, and so on.
+
+#### Type Scale and Spacing Scale
+
+A type scale and spacing scale have been defined:
+
+-   **To modify the type scale**, edit the relevant sections in `./src/styles/custom.css`.
+-   **To modify the spacing scale**, adjust the settings in `./tailwind.config.js`.
+
+### Further Configuration Required
+
+The following classes require additional configuration depending on your project's design:
+
+-   `.primary-button`
+-   `.secondary-button`
+-   `.primary-link`
+-   `.secondary-link`
+
+While the correct colors have been assigned, no specific styles have been applied. Once you style your button, for example, you can simply use the class on your `<button>` element, and voilà!

@@ -4,7 +4,10 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: {},
+                'dark-color': 'var(--dark-color)',
+                'light-color': 'var(--light-color)',
+                'primary-color': 'var(--primary-color)',
+                'secondary-color': 'var(--secondary-color)',
             },
             fontFamily: {
                 sans: [],
