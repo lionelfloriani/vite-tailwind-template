@@ -20,14 +20,14 @@ Make sure you have the **Prettier** extension installed in your editor, and that
 
 ## Available Commands
 
--   **Start Development Server**  
+-   **Start Development Server**\
     Launches a local development server with hot-reloading.
 
     ```bash
     npm run dev
     ```
 
--   **Build the Project**
+-   **Build the Project**\
     Compiles and bundles the project for production.
 
     ⚠️ Before building, ESLint will run to ensure code quality.
@@ -36,14 +36,14 @@ Make sure you have the **Prettier** extension installed in your editor, and that
     npm run build
     ```
 
--   **Preview the Production Build**
+-   **Preview the Production Build**\
     Serves the production build locally for inspection.
 
     ```bash
     npm run preview
     ```
 
--   **Deploy to GitHub Pages**  
+-   **Deploy to GitHub Pages**\
     Deploys the project to GitHub Pages.
 
     ```bash
