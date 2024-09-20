@@ -1,0 +1,13 @@
+/* Create and use custom Tailwind classes */
+
+/* @layer utilities {
+    .custom-class {
+
+        Custom CSS
+        ------------
+        background-color: aqua;
+
+        Using/combining existing Tailwind classes
+        @apply font-semibold;
+    }
+} */
