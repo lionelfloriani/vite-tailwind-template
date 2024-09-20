@@ -52,28 +52,6 @@ Make sure you have the **Prettier** extension installed in your editor, and that
 
 ---
 
-## Adding Images with JavaScript
-
-To load an image dynamically in JavaScript using Vite, follow these steps:
-
-1. Import the image file:
-
-    ```js
-    import examplePicture from './examplePicture.png';
-    ```
-
-2. Create an image element and append it to the DOM:
-
-    ```js
-    const image = document.createElement('img');
-    image.src = examplePicture;
-    document.body.appendChild(image);
-    ```
-
-⚠️ **Note:** Setting image URLs directly in JS may cause errors because Vite won’t be able to bundle them correctly.
-
----
-
 ## Tailwind Customization
 
 This template utilizes a combination of CSS variables and Tailwind custom classes to ensure a cohesive and consistent design.
@@ -106,3 +84,25 @@ The following classes require additional configuration depending on your project
 -   `.secondary-link`
 
 While the correct colors have been assigned, no specific styles have been applied. Once you style your button, for example, you can simply use the class on your `<button>` element, and voilà!
+
+---
+
+## Adding Images with JavaScript
+
+To load an image dynamically in JavaScript using Vite, follow these steps:
+
+1. Import the image file:
+
+    ```js
+    import examplePicture from './examplePicture.png';
+    ```
+
+2. Create an image element and append it to the DOM:
+
+    ```js
+    const image = document.createElement('img');
+    image.src = examplePicture;
+    document.body.appendChild(image);
+    ```
+
+⚠️ **Note:** Setting image URLs directly in JS may cause errors because Vite won’t be able to bundle them correctly.
