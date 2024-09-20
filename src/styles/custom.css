@@ -12,6 +12,16 @@
     }
 } */
 
+/* To load and use a custom font */
+/* Change the 'font-name' value + the path + the format (i.e: .woff)  */
+/* then, use the 'font-name' value in the '--ff' global CSS variable */
+
+/* @font-face {
+    font-family: 'font-name';
+    src:
+        url('../assets/fonts/') format(''),
+} */
+
 :root {
     --ff: 'Inter', sans-serif;
     --h1: bold 4rem/1em var(--ff);
