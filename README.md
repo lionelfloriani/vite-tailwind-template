@@ -40,7 +40,7 @@ Make sure you have the **Prettier** extension installed in your editor, and that
     Serves the production build locally for inspection.
 
     ```bash
-    npm run build
+    npm run preview
     ```
 
 -   **Deploy to GitHub Pages**  
